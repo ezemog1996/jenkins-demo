@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet{
 
 	protected void doGet(HttpServletRequest rq, HttpServletResponse rs) throws IOException, ServletException{
 		try(PrintWriter pw = rs.getWriter()){
-			pw.write("Hello World from EC2!");
+			pw.write("Hello World from Jenkins!");
 		}
 	}
 	
